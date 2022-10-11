@@ -1,0 +1,62 @@
+/* add any CSS styles you want here */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: rgb(147, 147, 246);
+}
+
+#body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table, td, th {
+    border: none;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td {
+    width: 15px;
+    height: 15px;
+}
+
+#alive{
+    background-color: rgb(52, 52, 119);
+}
+
+#dead {
+    background-color: white;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 90px;
+    height: 30px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: black;
+    transform: translateY(2px);
+}
+
+#page-heading {
+    letter-spacing: 1px;
+    font-size: 3em;
+    color: rgb(52, 52, 119);
+}
